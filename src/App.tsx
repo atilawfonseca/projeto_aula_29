@@ -5,7 +5,7 @@ import Cor from './cores/cor'
 
 import { ThemeProvider } from 'styled-components'
 
-import EstiloGlobal from './global'
+import EstiloGlobal, { Container } from './global'
 
 function App() {
   return (
@@ -13,9 +13,9 @@ function App() {
       <EstiloGlobal />
       <Header />
       <Hero />
-      <div className="container">
+      <Container>
         <ListaVagas />
-      </div>
+      </Container>
     </ThemeProvider>
   )
 }
