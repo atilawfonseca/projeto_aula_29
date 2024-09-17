@@ -1,8 +1,9 @@
+import Titulo from '../Titulo/titulo'
 import { StyleCabecalho } from './styles'
 
 const Header = () => (
   <StyleCabecalho>
-    <h1>EBAC Jobs</h1>
+    <Titulo>EBAC Jobs</Titulo>
   </StyleCabecalho>
 )
 
