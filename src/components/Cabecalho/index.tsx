@@ -3,7 +3,7 @@ import { StyleCabecalho } from './styles'
 
 const Header = () => (
   <StyleCabecalho>
-    <Titulo>EBAC Jobs</Titulo>
+    <Titulo fontSize={32}>EBAC Jobs</Titulo>
   </StyleCabecalho>
 )
 
